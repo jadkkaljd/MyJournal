@@ -69,11 +69,6 @@ section {
 	min-height: 100vh;
 	padding: 10rem 12%;
 }
-@media (max-width: 900px) {
-  .header, .home, .topics, .reflection, .application, .about {
-    padding-left: 4%;
-    padding-right: 4%;
-  }
 .home {
 	display: flex;
 	align-items: center;
@@ -308,26 +303,6 @@ section {
 	line-height: 1.6;
 	color: var(--text-color);
 	margin-top: 2rem;
-}
-@media (max-width: 700px) {
-  #menu-icon {
-    display: block;
-  }
-  .navbar {
-    display: none;
-    flex-direction: column;
-    background: var(--main-color);
-    position: absolute;
-    top: 60px;
-    right: 2%;
-    width: 60vw;
-    border-radius: 1rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    z-index: 99;
-  }
-  .navbar.active {
-    display: flex;
-  }
 }
 
 
